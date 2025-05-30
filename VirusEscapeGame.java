@@ -1,7 +1,7 @@
 import javax.swing.*;
 
-public class VIRUSESCAPEGAME extends JFrame {
-    public VIRUSESCAPEGAME() {
+public class VirusEscapeGame extends JFrame {
+    public VirusEscapeGame () {
         setTitle("Virus Escape");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
@@ -12,6 +12,6 @@ public class VIRUSESCAPEGAME extends JFrame {
     }
 
     public static void main(String[] args) {
-        new VIRUSESCAPEGAME();
+        new VirusEscapeGame ();
     }
 }
