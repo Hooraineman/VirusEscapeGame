@@ -157,7 +157,7 @@ class GameBoard extends JPanel implements ActionListener, KeyListener {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         if (!gameOver) {
-            player.draw(g);
+            player.draw(g);  
             for (Virus v : viruses) v.draw(g);
             for (Patch p : patches) p.draw(g);
             g.setColor(Color.WHITE);
